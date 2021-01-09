@@ -1,0 +1,368 @@
+/* AUTHOR :MICHAEL NJOROGE */
+
+/* ======================================================== */
+/* Please donate to continue supporting us.This website is not for sale if you never purchased it
+ */
+
+
+/* ======================================================== */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* body,html{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+/* ===========navbar================ */
+
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white !important;
+    transition: all .4s ease-in;
+    font-weight: 300 !important;
+    text-transform: capitalize;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: deepskyblue!important;
+    
+}
+nav{
+    transition: all .4s ease;
+}
+.bg-color{
+    background:linear-gradient(50deg,#F53844, #42378F ) !important;
+    box-shadow: 3px 3px 8px;
+}
+
+/* ===================end navbar============= */
+/* =======slider ==== */
+@media only screen and (max-width:576px){
+    .slider img{
+        width: 50%;
+    } 
+}
+@media only screen and (max-width:576px){
+    .slider img{
+        width: 50%;
+    } 
+    
+}
+.slider{
+  background: url('..//img/bg-2.jpg');
+  background-size: cover;
+   background-position: center;
+   height: auto;
+}
+.slider .text-holder{
+    padding-top: 200px;
+    color: white;
+}
+.slider .text-holder h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+.slider .text-holder h2{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.slider .text-holder p{
+    letter-spacing: 1px;
+}
+.slider .img-fluid{
+    margin-bottom: 0 !important ;
+    padding-bottom: 0 !important;
+    padding-top: 34px;
+}
+
+
+/* end slider */
+
+/* watch section */
+.watch .text-holder{
+    padding-top: 60px;
+}
+.watch .text-holder h4{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-style: italic;
+
+}
+.watch .text-holder h3{
+    font-weight: 700;
+}
+.watch .nav-btns span{
+    padding: 10px;
+
+
+}
+.watch .btn1{
+    outline: none ;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+.watch .btn2{
+    color:white;
+    background-color: deeppink;
+    border-radius: 40px;
+    padding: 6px 5px;
+    border: none;
+}
+.watch a.btn3{
+    text-decoration: none;
+    color: white;
+    background-color: deeppink;
+    padding: 5px;
+    border-radius: 20px;
+}
+.watch a.btn3:hover{
+    background-color: rgb(206, 17, 118);
+    text-decoration: underline;
+
+}
+/* end watch */
+/* successful-p area */
+.successful-p{
+    margin-top: 20px;
+    
+}
+.successful-p .icons-area{
+    background-color: #42378F;
+    padding: 10px 5px;
+}
+.successful-p .icons-area i{
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    background-color: #F53844;
+    line-height: 80px;
+    border-radius: 50%;
+    transition: all.4s ease;
+    border: 2px solid white;
+}
+.successful-p .icons-area i:hover{
+    transform: rotate(180deg);
+    color: #F53844;
+    background-color: white;
+}
+.bg-purple{
+    background-color: #42378F;
+}
+.successful-p .bg-deep{
+    background-color: #2e275a;
+}
+/* end successfull area */
+/* lets grow */
+.lets-grow{
+    background: url('..//img/laptop-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+    color: white;
+}
+.lets-grow h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 50px;
+}
+ .btn4{
+    color: white;
+    background-color: deeppink;
+    border: none;
+    margin-top: 10px;
+    border-radius: 20px;
+    transition: all .4s ease-in;
+}
+.btn4:hover{
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+}
+
+/* end lets grow */
+
+/* we best */
+.we-best h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.we-best i{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: white;
+    font-size: 30px;
+    color: deeppink;
+    border-radius: 50%;
+    border: 2px solid deeppink;
+    transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+}
+.we-best i:hover{
+    color: white;
+    background-color: deeppink;
+    border: 2px solid white;
+    transform: scale(1.2);
+    
+
+}
+.we-best .magical-ke{
+    background: url('..//img/magical-ke.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.we-best .img-btn{
+    width: 200px;
+    height: 200px;
+    margin-top: 120px;
+}
+.nav-tabs .nav-item .nav-link{
+    color: black !important;
+    border: none !important;
+}
+nav .nav-tabs{
+    text-align: center !important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: white !important;
+    background-color: deeppink !important;
+    border-radius: 30px !important;
+    margin-bottom: 5px !important;
+}
+
+/* end we best */
+/* brands */
+.brands i{
+    
+    color: white;
+    font-size: 60px;
+    padding: 20px;
+}
+
+/* end brands */
+/* testimonials */
+.testimonials {
+    background: url('..//img/laptop-bg2.png');
+    color: white;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: auto;
+}
+.testimonials h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-style: italic;
+    
+}
+.testimonials span i{
+    color: orange;
+}
+
+
+/* end testmonials */
+/* contacts */
+
+.contacts .bg-pink{
+    background-color: deeppink;
+    color: white;
+}
+.contacts h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn5{
+    color: white;
+    background-color: #2e275a;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px  black;
+}
+.contacts .form-control{
+    border-radius: 0% !important;
+}
+
+/* end contacts */
+/* social section */
+.social i{
+    color: white;
+    font-size: 60px;
+    width: 80px;
+    margin-bottom: 30px;
+    height: 80px;
+    line-height: 80px;
+    background-color: deeppink;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+}
+.social i:hover{
+    transform: rotate(360deg);
+    color: deeppink;
+    background-color: white;
+    border: 2px solid deeppink;
+}
+/* end social */
+/* footer */
+.footer .nav-item .nav-link{
+    color: black;
+    transition: all .4s ease-in;
+    
+}
+.footer .nav-item .nav-link:hover{
+    text-decoration: underline;
+    
+}
+.footer h2{
+    color: #2e275a;
+    margin-top: 50px;
+}
+.footer h4{
+    font-family: 'Roboto Slab',sans-serif;
+    
+}
+.footer i{
+    color: deeppink;
+}
+/* end footer */
+
+/* scroll to top btn */
+#myBtn{
+    display: inline-block;
+    background-color: deeppink;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition:  all .3s ease-in;
+    z-index: 1000;
+    
+}
+#myBtn i{
+    line-height: 50px;
+}
+#myBtn:hover{
+    cursor: pointer;
+    background-color: #2e275a;
+}
